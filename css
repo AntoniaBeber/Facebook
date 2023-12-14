@@ -1,0 +1,80 @@
+html{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    
+}
+
+
+
+h1 {
+    color: white;
+    font:20px;
+    /*font-family: ;*/
+}
+
+.search {
+    border-radius: 45px;
+    border: 0cm;
+    padding: 11px;
+    background-color: rgb(114, 110, 110);
+    color: white;
+    
+}
+
+
+.Messenger {
+    border-radius: 45px;
+    border: 0cm;
+    padding: 11px;
+    background-color: rgb(114, 110, 110);
+    color: white;
+    
+}
+
+.notifications{
+        border-radius: 45px;
+        border: 0cm;
+        padding: 11px;
+        background-color: rgb(114, 110, 110);
+        color: white;
+        position: relative;
+        
+    }
+    span{
+        position: absolute;
+        background-color: red;
+        border-radius:9px;
+        padding: 4px;
+        border-left: 2px solid black;
+        text-align: center;
+
+
+    }
+
+
+.profile {
+    clip-path: circle();
+    background-image: ;
+    align-items: center;
+    justify-content: center;*/
+    border-radius: 15px;
+    background-color: rgb(114, 110, 110);
+   
+}
+
+img {
+    height: ;
+    width: 30px;
+    border-radius: 15px;
+    display:;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
