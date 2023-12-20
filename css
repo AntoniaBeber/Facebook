@@ -4,11 +4,17 @@ html{
     
 }
 
-
+div {
+  display: flex;
+  justify-content: space-between;
+}
 
 h1 {
-    color: white;
-    font:20px;
+  color: white;
+  font:20px;
+  left: 20px;
+  margin: 0;
+    
     /*font-family: ;*/
 }
 
@@ -18,9 +24,27 @@ h1 {
     padding: 11px;
     background-color: rgb(114, 110, 110);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space beetwen; 
+    width: 200px;
+ 
+    
+}
+
+.segundocontainer {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .Messenger {
     border-radius: 45px;
@@ -28,6 +52,8 @@ h1 {
     padding: 11px;
     background-color: rgb(114, 110, 110);
     color: white;
+    right: 0;
+    height: 40px;
     
 }
 
@@ -38,43 +64,54 @@ h1 {
         background-color: rgb(114, 110, 110);
         color: white;
         position: relative;
+        right: 0;
+        height: 40px;
         
     }
+
+    
     span{
         position: absolute;
         background-color: red;
         border-radius:9px;
-        padding: 4px;
+        padding: 3px;
         border-left: 2px solid black;
         text-align: center;
+        top: -2px;
 
 
     }
 
 
-.profile {
+.picture {
     clip-path: circle();
-    background-image: ;
+    background-image: url(https://i.pinimg.com/736x/0e/91/51/0e9151c416856aa9c3784a896ba99270.jpg);
     align-items: center;
-    justify-content: center;*/
+    justify-content: center;
     border-radius: 15px;
-    background-color: rgb(114, 110, 110);
+    height: 45px;
+    width: 45px;
+    background-size: cover;
+
    
 }
 
-img {
-    height: ;
-    width: 30px;
-    border-radius: 15px;
-    display:;
-    justify-content: center;
-    align-items:center;
-    
+.relative{
+  position: relative;
+ 
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    
-    
+.profile {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(114, 110, 110);
+  border: none;
+  border-radius: 25px;
+  padding: 4px;
+  bottom: -2px;
+  right: -5px;
+   z-index: 2;
+ 
 }
